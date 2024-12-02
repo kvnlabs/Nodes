@@ -1,6 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Welcome to Nodes
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Its Just a Home page yet very powerful try me
