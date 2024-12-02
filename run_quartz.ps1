@@ -59,19 +59,20 @@ Run-Command -command "npx quartz build" -successMessage "'npx quartz build' comp
 # Run 'npx quartz sync'
 Run-Command -command "npx quartz sync" -successMessage "'npx quartz sync' completed successfully." -errorMessage "'npx quartz sync' failed."
 
-# Open GitHub Actions page and refresh immediately
-Open-Url -url $githubUrl
-Start-Sleep -Seconds 1
-# Refresh the GitHub page by opening it again
+# Open GitHub Actions page
 Open-Url -url $githubUrl
 
-# Open blog and refresh after 40 seconds
-Write-Host "Waiting 40 seconds before opening the blog site..."
-Start-Sleep -Seconds 40
+# Wait for 5 seconds before refreshing GitHub
+Start-Sleep -Seconds 5
+Write-Host "Refreshing GitHub Actions page..."
+# Refresh GitHub by opening it again
+Open-Url -url $githubUrl
 
-Open-Url -url $blogUrl
-Start-Sleep -Seconds 1
-# Refresh the blog page by opening it again
+# Wait for 60 seconds before opening the blog
+Write-Host "Waiting 60 seconds before opening the blog site..."
+Start-Sleep -Seconds 60
+
+# Open the blog site
 Open-Url -url $blogUrl
 
 Write-Host "Process complete."
