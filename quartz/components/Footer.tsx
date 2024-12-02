@@ -1,6 +1,6 @@
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/footer.scss"
-import { version } from "../../package.json"
+
 
 interface Options {
   links: Record<string, string>
@@ -14,7 +14,7 @@ export default ((opts?: Options) => {
       <footer class={`${displayClass ?? ""}`}>
         <hr />
         <p>
-          Created by <a href="https://github.com/kavinthangavel" target="_blank">Kavin</a> with <a> Quartz v{version}</a>, © {year}
+          Created by <a href="https://github.com/kavinthangavel" target="_blank">Kavin</a>  © {year}
         </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (
