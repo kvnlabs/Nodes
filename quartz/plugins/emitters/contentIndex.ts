@@ -32,7 +32,7 @@ const defaultOptions: Options = {
   enableSiteMap: true,
   enableRSS: true,
   rssLimit: 10,
-  rssFullHtml: false,
+  rssFullHtml: true,
   includeEmptyFiles: true,
 }
 

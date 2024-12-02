@@ -4,14 +4,14 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Nodes",
-    pageTitleSuffix: "Second Brain",
+    pageTitleSuffix: " | Second Brain",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: 'posthog', apiKey: 'phc_lvyngIHZ9IQP8oDCSw8sEuypydEjktkHo9HSdDZrO2n', host: 'https://eu.i.posthog.com',
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "blog.kavinthangavel.tech",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: true,
