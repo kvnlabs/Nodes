@@ -36,6 +36,14 @@ function Run-Command {
     Write-Host "$successMessage"
 }
 
+function Open-Url {
+    param (
+        [string]$url
+    )
+    Write-Host "Opening URL: $url"
+    Start-Process $url
+}
+
 # Main script
 Validate-Npx
 
@@ -51,31 +59,19 @@ Run-Command -command "npx quartz build" -successMessage "'npx quartz build' comp
 # Run 'npx quartz sync'
 Run-Command -command "npx quartz sync" -successMessage "'npx quartz sync' completed successfully." -errorMessage "'npx quartz sync' failed."
 
-# Open GitHub Actions page
-Write-Host "Opening GitHub Actions page..."
-$githubPage = Start-Process "msedge.exe" -ArgumentList $githubUrl -PassThru
-
-# Wait 10 seconds for the page to load before refreshing
-Start-Sleep -Seconds 10
-
-Write-Host "Refreshing the GitHub Actions page..."
-$githubPage.CloseMainWindow()
+# Open GitHub Actions page and refresh immediately
+Open-Url -url $githubUrl
 Start-Sleep -Seconds 1
-$githubPage = Start-Process "msedge.exe" -ArgumentList $githubUrl -PassThru
+# Refresh the GitHub page by opening it again
+Open-Url -url $githubUrl
 
-# Open blog and reload after 40 seconds
+# Open blog and refresh after 40 seconds
 Write-Host "Waiting 40 seconds before opening the blog site..."
 Start-Sleep -Seconds 40
 
-Write-Host "Opening blog site: $blogUrl"
-$blogPage = Start-Process "msedge.exe" -ArgumentList $blogUrl -PassThru
-
-# Wait 10 seconds for the page to load before refreshing
-Start-Sleep -Seconds 10
-
-Write-Host "Refreshing the blog site..."
-$blogPage.CloseMainWindow()
+Open-Url -url $blogUrl
 Start-Sleep -Seconds 1
-$blogPage = Start-Process "msedge.exe" -ArgumentList $blogUrl -PassThru
+# Refresh the blog page by opening it again
+Open-Url -url $blogUrl
 
 Write-Host "Process complete."
