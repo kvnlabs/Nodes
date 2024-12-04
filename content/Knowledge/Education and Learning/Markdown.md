@@ -88,8 +88,7 @@ Same as the previous five, but add a `!` at the start like:
 ## What's here? 
 
 - [[Obsidian]]contains information on different features and how to use them.
-- [Core plugins] goes through every single core plugin.
-- [Workflows in Obsidian] goes through a few different use cases for Obsidian.
+- [[Obsidian Plugins]] goes through every single core plugin.
 
 There's more to come, but you're welcome to poke around now!
 
@@ -221,9 +220,8 @@ Command: `git push`
 
 Looks like this:
 
-Note
-
-This is a note.
+>[!NOTE] Note
+>this is a note
 
 ## Add code block 
 
@@ -241,7 +239,7 @@ print('Hello world')
 
 You can create a comment that spans over multiple lines:
 
-```
+```markdown
 %%
 This is
 a
@@ -249,15 +247,6 @@ multi-line comment.
 %%
 ```
 
-And that looks like this:
-
-You can also create a comment on a single line:
-
-```
-%% But this is a comment too. %%
-```
-
-And it looks like this:
 
 ## Add a footnote 
 
@@ -270,11 +259,4 @@ Looks like this:
 
 ... as Ahrens says. [[1]](https://publish.obsidian.md/#fn-1-ad0f73ade07889a8)
 
-## Related 
 
-- [Formatting your notes](https://help.obsidian.md/How+to/Format+your+notes)
-
-
----
-
-1. Ahrens, S.(2022).[↩︎](https://publish.obsidian.md/#fnref-1-ad0f73ade07889a8)
