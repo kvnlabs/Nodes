@@ -41,9 +41,7 @@ Looks like this:
 [[Readme]]
 ```
 
-Looks like this:
 
-[Obsidian Playbook Readme](https://notes.nicolevanderhoeven.com/obsidian-playbook/Obsidian+Playbook+Readme)
 
 ### Link to note but with link text 
 
@@ -51,9 +49,7 @@ Looks like this:
 [[Readme|This is the readme.]]
 ```
 
-Looks like this:
 
-[This is the readme.](https://notes.nicolevanderhoeven.com/obsidian-playbook/Obsidian+Playbook+Readme)
 
 ### Link to a public website 
 
@@ -61,9 +57,7 @@ Looks like this:
 [Kavin Thangavel](https://kavinthangavel.tech)
 ```
 
-Looks like this:
 
-[Nicole](https://nicolevanderhoeven.com/)
 
 ### Link to a section of a note 
 
@@ -71,9 +65,8 @@ Looks like this:
 [[content/index|index]]
 ```
 
-Looks like this:
 
-[Obsidian Playbook Readme > What's in this vault?](https://notes.nicolevanderhoeven.com/obsidian-playbook/Obsidian+Playbook+Readme#What's%20in%20this%20vault?)
+
 
 ### Link to paragraph in note: 
 
@@ -81,8 +74,6 @@ Looks like this:
 [[Readme#^f21c74]]
 ```
 
-Looks like this:  
-[Obsidian Playbook Readme > ^f21c74](https://notes.nicolevanderhoeven.com/obsidian-playbook/Obsidian+Playbook+Readme#^f21c74)
 
 ### Embed note or part of notes 
 
@@ -92,24 +83,16 @@ Same as the previous five, but add a `!` at the start like:
 ![[Readme#^f21c74]]
 ```
 
-Looks like this:
 
-Obsidian Playbook Readme
-
-Hey! The stuff in this part of the vault used to be a Patreon-only vault, but I'm in the process of moving it into my existing vault because I hated the separation.
 
 ## What's here? 
 
-- [Obsidian](https://notes.nicolevanderhoeven.com/Obsidian) contains information on different features and how to use them.
-- [Core plugins](https://notes.nicolevanderhoeven.com/obsidian-playbook/Obsidian+Plugins/Core+Plugins/Core+plugins) goes through every single core plugin.
-- [Dataview Examples](https://notes.nicolevanderhoeven.com/obsidian-playbook/Obsidian+Plugins/Community+Plugins/dataview/Dataview+Examples) contains examples of real Dataview queries.
-- [Dataviewjs Examples](https://notes.nicolevanderhoeven.com/obsidian-playbook/Obsidian+Plugins/Community+Plugins/dataview/Dataviewjs+Examples) contains examples of DataviewJS queries.
-- [Video database](https://notes.nicolevanderhoeven.com/databases/video-database/Video+database) has videos from my YouTube channel.
-- [Workflows in Obsidian](https://notes.nicolevanderhoeven.com/obsidian-playbook/Obsidian+Workflows/Workflows+in+Obsidian) goes through a few different use cases for Obsidian.
+- [[Obsidian]]contains information on different features and how to use them.
+- [Core plugins] goes through every single core plugin.
+- [Workflows in Obsidian] goes through a few different use cases for Obsidian.
 
 There's more to come, but you're welcome to poke around now!
 
-**What's new**? Check the [Changelog](https://notes.nicolevanderhoeven.com/Changelog).
 
 ## Formatting text 
 

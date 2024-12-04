@@ -54,7 +54,7 @@ Check-Folder -path $folderPath
 Set-Location -Path $folderPath
 
 # Run 'npx quartz build'
-Run-Command -command "npx quartz build" -successMessage "'npx quartz build' completed successfully." -errorMessage "'npx quartz build' failed."
+# Run-Command -command "npx quartz build" -successMessage "'npx quartz build' completed successfully." -errorMessage "'npx quartz build' failed."
 
 # Run 'npx quartz sync'
 Run-Command -command "npx quartz sync" -successMessage "'npx quartz sync' completed successfully." -errorMessage "'npx quartz sync' failed."
@@ -63,7 +63,7 @@ Run-Command -command "npx quartz sync" -successMessage "'npx quartz sync' comple
 Open-Url -url $githubUrl
 
 # Wait for 5 seconds before refreshing GitHub
-Start-Sleep -Seconds 5
+Start-Sleep -Seconds 10
 Write-Host "Refreshing GitHub Actions page..."
 # Refresh GitHub by opening it again
 Open-Url -url $githubUrl
