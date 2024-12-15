@@ -36,11 +36,10 @@ This Chapter says How to turn work and free time into spaces
 - Perceiving Significant skills
 - Being free from distractions
 
-- [f] Strategy 1 : Choose a difficult Task
+==Strategy 1 : Choose a difficult Task==
 
 You should consider doing the difficult task and we should come out of the comfort zone
 but we should not choose very difficult task that's beyond out abilities it may lead to anxiety.
-
 
 
 
