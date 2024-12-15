@@ -21,7 +21,7 @@ Cooking...
 
 
 ## Setting this up
-I've used many different [[Personal Knowledge Management]] tools to create these notes, but my current setup primarily uses [Obsidian](https://notes.nicolevanderhoeven.com/Obsidian). My notes are [[Markdown]] files that are stored in a [Git](https://notes.nicolevanderhoeven.com/Git) repository,
+I've used many different [[Personal Knowledge Management]] tools to create these notes, but my current setup primarily uses [[Obsidian]]. My notes are [[Markdown]] files that are stored in a [[Git]] repository,
 
 ## This Whole Website Structure of  Your Refference
 ```markdown
