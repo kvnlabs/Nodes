@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - v4
-    
 
 permissions:
   contents: read
@@ -26,7 +25,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**/package.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
       - uses: actions/setup-node@v4
