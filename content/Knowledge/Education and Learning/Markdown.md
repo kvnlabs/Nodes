@@ -54,7 +54,7 @@ Looks like this:
 ### Link to a public website 
 
 ```markdown
-[Kavin Thangavel](https://kavinthangavel.tech)
+[Kavin Thangavel](https://thekavin.com)
 ```
 
 

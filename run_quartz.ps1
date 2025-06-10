@@ -1,6 +1,6 @@
 # Script Configuration
-$folderPath = "D:\Dev\Nodes"
-$blogUrl = "https://blog.kavinthangavel.com"
+$folderPath = "D:\Kodo\Nodes"
+$blogUrl = "https://blog.thekavin.com"
 $githubUrl = "https://github.com/kvnlabs/Nodes/actions"
 
 # Helper Functions

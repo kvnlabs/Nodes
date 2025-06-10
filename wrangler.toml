@@ -1,0 +1,13 @@
+name = "nodes"
+compatibility_date = "2025-06-10"
+
+[env.production]
+name = "nodes"
+routes = [
+  { pattern = "blog.thekavin.com", zone_name = "thekavin.com" }
+]
+
+# Optional: Configure custom domains
+# [env.production.route]
+# pattern = "blog.thekavin.com/*"
+# zone_name = "thekavin.com"

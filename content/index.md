@@ -2,7 +2,7 @@
 title: Welcome to Nodes
 ---
 
-Welcome! I'm [Kavin Thangavel](https://kavinthangavel.tech), and you've somehow managed to find your way to my working notes (at least the ones I've published). They're messy, half-formed, and unpolished, so if you don't understand something, it's probably because it was written mainly for me. Consider this an experiment. You've been warned!
+Welcome! I'm [Kavin Thangavel](https://thekavin.com), and you've somehow managed to find your way to my working notes (at least the ones I've published). They're messy, half-formed, and unpolished, so if you don't understand something, it's probably because it was written mainly for me. Consider this an experiment. You've been warned!
 
 If you do spot something wrong that you'd like to let me know about, [Mailto](kavinthangavel.dev@gmail.com). I welcome constructive feedback and corrections, although I don't promise I'll be able to respond promptly. :)
 

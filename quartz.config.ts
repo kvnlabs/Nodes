@@ -11,7 +11,7 @@ const config: QuartzConfig = {
       provider: 'posthog', apiKey: 'phc_lvyngIHZ9IQP8oDCSw8sEuypydEjktkHo9HSdDZrO2n', host: 'https://eu.i.posthog.com',
     },
     locale: "en-US",
-    baseUrl: "blog.kavinthangavel.tech",
+    baseUrl: "blog.thekavin.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: true,
