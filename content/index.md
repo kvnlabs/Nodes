@@ -12,7 +12,7 @@ Anyways Thanks... 😁
 Wherever you want! Search for a topic, click on random notes, explore the graph view, or start with these loose areas of interest.
 
 
-### [[/content/]]
+### content
 
 
 
