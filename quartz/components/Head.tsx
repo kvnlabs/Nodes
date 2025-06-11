@@ -48,6 +48,9 @@ export default (() => {
             {cfg.theme.typography.title && (
               <link rel="stylesheet" href={googleFontSubsetHref(cfg.theme, cfg.pageTitle)} />
             )}
+            {/* Load custom Nothing fonts */}
+            <link rel="stylesheet" href={joinSegments(baseDir, "static/fonts/nothing-fonts.css")} />
+            <link rel="stylesheet" href={joinSegments(baseDir, "static/custom-typography.css")} />
           </>
         )}
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin="anonymous" />

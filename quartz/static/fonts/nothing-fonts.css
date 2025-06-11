@@ -1,0 +1,87 @@
+/* Nothing Font Definitions */
+
+@font-face {
+  font-family: 'NDot-55';
+  src: url('./Ndot-55.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NDot-57';
+  src: url('./Ndot-57.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NType82-Headline';
+  src: url('./NType82-Headline.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NType82-Regular';
+  src: url('./NType82-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NType82Mono-Regular';
+  src: url('./NType82Mono-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LetteraMonoLL';
+  src: url('./LetteraMonoLLCondLight-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Custom Typography Rules */
+
+/* Page Title with NDot-55 */
+.page-title,
+#quartz-root .page-title,
+header h1 {
+  font-family: 'NDot-55', monospace !important;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+}
+
+/* Headers with NType82-Headline */
+h1, h2, h3, h4, h5, h6,
+.article-title {
+  font-family: 'NType82-Headline', serif !important;
+  font-weight: normal;
+}
+
+/* Body text with NType82-Regular */
+body, p, span, div, li, td,
+.content {
+  font-family: 'NType82-Regular', serif !important;
+  font-weight: normal;
+}
+
+/* Code blocks with NType82Mono */
+code, pre, .hljs,
+.code-block, .inline-code {
+  font-family: 'NType82Mono-Regular', monospace !important;
+  font-weight: normal;
+}
+
+/* Navigation and UI elements */
+nav, .sidebar, .explorer,
+.search-bar, .recent-notes {
+  font-family: 'NType82-Regular', serif;
+}
